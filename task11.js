@@ -10,7 +10,8 @@ let avg;
 
 for (const num of numbers) {
     sum += num;
-    avg = sum / x;
 }
-console.log(Number(avg.toFixed(2)));
+avg = sum / x;
+// console.log(Number(avg.toFixed(2)));
+console.log(avg);
 

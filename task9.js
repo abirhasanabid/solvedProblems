@@ -10,11 +10,5 @@ const persons = {
   
   const keyToCheck = 'age';
 
-  for(const person in persons){
-    if(keyToCheck.includes(person)){
-        console.log('Containes the key');
-    }
-    else{
-        console.log('There is no key')
-    }
-  }
+  let keys= Object.keys(persons);
+  console.log(keys.includes(keyToCheck));
